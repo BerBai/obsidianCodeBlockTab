@@ -1,0 +1,25 @@
+{
+	"name": "codeblock-tabs",
+	"version": "1.0.0",
+	"description": "Create tab group for contiguous CodeBlocks.",
+	"main": "main.js",
+	"scripts": {
+		"build": "obsidian-plugin build --with-stylesheet ./styles.css ./main.ts",
+        "dev": "obsidian-plugin dev ./main.ts",
+		"version": "node version-bump.mjs && git add manifest.json versions.json"
+	},
+	"keywords": [],
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "latest",
+		"@typescript-eslint/eslint-plugin": "latest",
+		"@typescript-eslint/parser": "latest",
+		"builtin-modules": "latest",
+		"esbuild": "0.17.3",
+		"obsidian": "latest",
+		"obsidian-plugin-cli": "^0.4.3",
+		"tslib": "latest",
+		"typescript": "latest"
+	}
+}
