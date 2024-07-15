@@ -4,7 +4,7 @@ Create tab group for contiguous CodeBlocks.
 
 ## Demo
 
-![](doc/screenshot.gif)
+![](./doc/screenshot.gif)
 
 ## Usage
 
